@@ -1,0 +1,22 @@
+{
+  "name": "website-dac-san-tay-nguyen",
+  "version": "1.0.0",
+  "description": "Website gioi thieu 10 mon dac san Tay Nguyen",
+  "main": "index.html",
+  "scripts": {
+    "start": "lite-server",
+    "dev": "browser-sync start --server --files '*.html, css/*.css, js/*.js'"
+  },
+  "keywords": [
+    "dac-san",
+    "tay-nguyen",
+    "website-gioi-thieu",
+    "10-san-pham"
+  ],
+  "author": "HuyTran271",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "lite-server": "^2.6.1"
+  }
+}
