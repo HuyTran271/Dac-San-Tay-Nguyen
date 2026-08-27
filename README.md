@@ -17,7 +17,7 @@ Là một trang web giới thiệu, bán các sản phẩm của khu vực Tây 
 dac-san-tay-nguyen/
 │
 ├── index.html          # File giao diện chính
-├── css/
+├── css
 │   └── style.css       # File định dạng giao diện
 ├── js/                 # (Đang phát triển) Thư mục chứa các file xử lý logic
 │    └── script.js
@@ -34,7 +34,7 @@ dac-san-tay-nguyen/
 ## Hướng dẫn chạy dự án
 Bước 1: Clone project về máy bằng lệnh :
 ```bash
-git clone https://github.com/HuyTran271/THWeb1
+git clone https://github.com/HuyTran271/Dac-San-Tay-Nguyen
 ```
 Bước 2: Cài đặt extension Live Server trên Visual Studio Code (Nếu đã có bỏ qua bước này) <br>
 Bước 3: Chuột phải vào file index.html <br>
