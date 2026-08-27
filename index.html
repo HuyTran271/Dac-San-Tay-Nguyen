@@ -7,18 +7,27 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header id ="navigiton">
         <div id="logo">
             <h1>Đặc Sản Tây Nguyên</h1>
         </div>
-        <nav>
-            <ul class="navigation">
-                <li><a href="#trang-chu">Trang Chủ</a></li>
-                <li><a href="#gioi-thieu">Giới Thiệu</a></li>
-                <li><a href="#san-pham">Sản Phẩm</a></li>
-                <li><a href="#lien-he">Liên Hệ</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar">
+  <ul class="navigation">
+    <li><a href="#trang-chu">Trang Chủ</a></li>
+    <li><a href="#gioi-thieu">Giới Thiệu</a></li>
+    <li><a href="#san-pham">Sản Phẩm</a></li>
+    <li><a href="#lien-he">Liên Hệ</a></li>
+  </ul>
+</nav>
+  <form class="search-form" action="#" method="GET">
+    <input 
+      type="search" 
+      name="query" 
+      placeholder="Tìm sản phẩm bạn muốn..." 
+      required
+    >
+    <button type="submit">Tìm Kiếm</button>
+  </form>
     </header>
     <main>
         <section id="trang-chu">
