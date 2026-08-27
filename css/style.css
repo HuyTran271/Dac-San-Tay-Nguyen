@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f5f1ea;
+    color: #222;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 8%;
+    background: #2f6b3d;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+#logo h1 {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+nav .navigation {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    list-style: none;
+}
+
+nav .navigation li a {
+    color: #fff;
+    font-size: 0.95rem;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+nav .navigation li a:hover,
+nav .navigation li a:focus {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+main,
+#lien-he,
+footer {
+    padding: 0 8%;
+}
+
+section {
+    padding: 60px 0;
+}
+
+#trang-chu {
+    background: linear-gradient(135deg, #f8f0de, #e9f2ea);
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    padding: 80px 8%;
+}
+
+#trang-chu > div {
+    max-width: 700px;
+}
+
+#trang-chu p:first-child {
+    color: #3a7a49;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 12px;
+}
+
+#trang-chu h1 {
+    font-size: clamp(2.2rem, 5vw, 4rem);
+    color: #1c2e1d;
+    margin-bottom: 18px;
+    line-height: 1.1;
+}
+
+#trang-chu p:nth-of-type(2) {
+    font-size: 1.05rem;
+    margin-bottom: 24px;
+    color: #444;
+}
+
+#trang-chu a {
+    display: inline-block;
+    background: #2f6b3d;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 999px;
+    font-weight: 600;
+}
+
+#gioi-thieu > div,
+#nguon-goc > div,
+#dinh-huong > div {
+    display: grid;
+    gap: 30px;
+}
+
+#gioi-thieu > div {
+    grid-template-columns: 1fr;
+}
+
+#gioi-thieu > div > div:last-child {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+section p:first-child {
+    color: #3a7a49;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+section h2 {
+    font-size: clamp(1.8rem, 3vw, 2.5rem);
+    color: #1d2e1d;
+    margin-bottom: 12px;
+}
+
+article {
+    background: #fff;
+    border: 1px solid #eae3d7;
+    border-radius: 18px;
+    padding: 24px 20px;
+    box-shadow: 0 4px 14px rgba(20, 20, 20, 0.03);
+}
+
+article h3 {
+    margin-bottom: 8px;
+    color: #1f3b2d;
+}
+
+#san-pham {
+    background: #fff;
+}
+
+#category-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 24px 0;
+}
+
+#category-filters button {
+    border: 1px solid #d8d2c8;
+    background: #f3efe8;
+    padding: 10px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #2d3a2d;
+}
+
+#category-filters button:hover {
+    background: #2f6b3d;
+    color: #fff;
+    border-color: #2f6b3d;
+}
+
+#product-list {
+    min-height: 120px;
+    padding: 30px;
+    border: 1px dashed #c8d7c9;
+    border-radius: 16px;
+    background: #f8fbf8;
+    text-align: center;
+    color: #5a5a5a;
+}
+
+#lien-he {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#lien-he ul {
+    list-style: none;
+    margin-top: 16px;
+}
+
+#lien-he li {
+    margin-bottom: 12px;
+    color: #333;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: #fff;
+    padding: 28px;
+    border-radius: 18px;
+    border: 1px solid #eee5d8;
+}
+
+#contact-form label {
+    font-weight: 600;
+    color: #2d3a2d;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    border: 1px solid #ddd3c5;
+    border-radius: 12px;
+    padding: 12px 14px;
+    font-size: 1rem;
+    background: #fff;
+}
+
+#contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+#contact-form button {
+    border: none;
+    background: #2f6b3d;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer {
+    background: #1d2c20;
+    color: #dfe9df;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 12px;
+        padding: 16px 5%;
+    }
+
+    nav .navigation {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #gioi-thieu > div:last-child {
+        grid-template-columns: 1fr;
+    }
+
+    #lien-he {
+        grid-template-columns: 1fr;
+    }
+
+    main,
+    #lien-he,
+    footer,
+    #trang-chu {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
