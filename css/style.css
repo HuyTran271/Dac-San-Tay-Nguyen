@@ -35,14 +35,29 @@ header {
     background: #2f6b3d;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
 }
+.logo-link{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    text-decoration:none;
+}
+.logo-img{
+    width:45px;
+    height:45px;
+    object-fit:contain;
+}
 
 #logo{
     flex:1;
+    display:flex;
+    justify-content:flex-start;
 }
 #logo h1 {
     color: #fff;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 700;
+    margin:0;
+    white-space:nowrap;
     letter-spacing: 0.03em;
 }
 
@@ -61,7 +76,6 @@ nav .navigation {
     border-radius:20px;
     padding:2px 4px 2px 12px;
     max-width: 280px;
-    margin-left:280px;
 }
 .search-form input[type="search"]{
     border:none;
@@ -107,13 +121,35 @@ footer {
 section {
     padding: 60px 0;
 }
-
 #trang-chu {
     background: linear-gradient(135deg, #f8f0de, #e9f2ea);
     min-height: 420px;
     display: flex;
     align-items: center;
-    padding: 80px 8%;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 60px 8%;
+    border-radius: 24px;
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
 #trang-chu > div {
@@ -194,6 +230,8 @@ article h3 {
 
 #san-pham {
     background: #fff;
+    border-radius:36px;
+    padding:40px;
 }
 
 #category-filters {
