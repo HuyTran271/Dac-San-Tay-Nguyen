@@ -1,0 +1,142 @@
+{
+  "categories": [
+    { "id": "nong-san", "name": "Nông sản" },
+    { "id": "che-bien", "name": "Đặc sản chế biến" },
+    { "id": "do-uong", "name": "Đồ uống" },
+    { "id": "thu-cong", "name": "Thủ công mỹ nghệ" }
+  ],
+  "products": [
+    {
+      "id": "sp001",
+      "name": "Cà phê Robusta Buôn Ma Thuột",
+      "category": "do-uong",
+      "origin": "Buôn Ma Thuột, Đắk Lắk",
+      "unit": "gói 500g",
+      "price": 120000,
+      "description": "Cà phê Robusta rang xay nguyên chất, trồng trên vùng đất bazan Buôn Ma Thuột.",
+      "image": "assets/images/ca-phe-bmt.jpg",
+      "inStock": true
+    },
+    {
+      "id": "sp002",
+      "name": "Hồ tiêu Chư Sê",
+      "category": "nong-san",
+      "origin": "Chư Sê, Gia Lai",
+      "unit": "hộp 200g",
+      "price": 65000,
+      "description": "Hồ tiêu đen hạt chắc, cay nồng, đặc sản nổi tiếng của vùng Chư Sê.",
+      "image": "assets/images/ho-tieu-chu-se.jpg",
+      "inStock": true
+    },
+    {
+      "id": "sp003",
+      "name": "Ca cao nguyên chất Đắk Lắk",
+      "category": "che-bien",
+      "origin": "Krông Ana, Đắk Lắk",
+      "unit": "hộp 250g",
+      "price": 95000,
+      "description": "Bột ca cao nguyên chất từ vùng trồng ca cao lâu năm của Đắk Lắk.",
+      "image": "assets/images/ca-cao-dl.jpg",
+      "inStock": true
+    },
+    {
+      "id": "sp004",
+      "name": "Mật ong hoa cà phê",
+      "category": "nong-san",
+      "origin": "Cư M'gar, Đắk Lắk",
+      "unit": "chai 500ml",
+      "price": 150000,
+      "description": "Mật ong nguyên chất thu hoạch từ mùa hoa cà phê nở, vị ngọt thanh đặc trưng.",
+      "image": "assets/images/mat-ong-hoa-ca-phe.jpg",
+      "inStock": true
+    },
+    {
+      "id": "sp005",
+      "name": "Bơ sáp Đắk Lắk",
+      "category": "nong-san",
+      "origin": "Đắk Mil, Đắk Nông",
+      "unit": "kg",
+      "price": 55000,
+      "description": "Bơ sáp dẻo, béo, hạt nhỏ, thu hoạch theo mùa.",
+      "image": "assets/images/bo-sap.jpg",
+      "inStock": true
+    },
+    {
+      "id": "sp006",
+      "name": "Sầu riêng Đắk Lắk",
+      "category": "nong-san",
+      "origin": "Krông Pắc, Đắk Lắk",
+      "unit": "kg",
+      "price": 85000,
+      "description": "Sầu riêng cơm vàng, hạt lép, thơm béo đặc trưng vùng Krông Pắc.",
+      "image": "assets/images/sau-rieng.jpg",
+      "inStock": true
+    },
+    {
+      "id": "sp007",
+      "name": "Hạt mắc ca Tây Nguyên",
+      "category": "che-bien",
+      "origin": "Đắk Nông",
+      "unit": "túi 300g",
+      "price": 110000,
+      "description": "Hạt mắc ca sấy nguyên vỏ, béo bùi, giàu dinh dưỡng.",
+      "image": "assets/images/mac-ca.jpg",
+      "inStock": true
+    },
+    {
+      "id": "sp008",
+      "name": "Hạt điều rang muối",
+      "category": "che-bien",
+      "origin": "Đắk Nông",
+      "unit": "túi 300g",
+      "price": 90000,
+      "description": "Hạt điều loại 1 rang muối giòn thơm, đóng gói hút chân không.",
+      "image": "assets/images/hat-dieu.jpg",
+      "inStock": true
+    },
+    {
+      "id": "sp009",
+      "name": "Thổ cẩm Ê Đê",
+      "category": "thu-cong",
+      "origin": "Buôn Đôn, Đắk Lắk",
+      "unit": "tấm 1.5m x 2m",
+      "price": 350000,
+      "description": "Vải thổ cẩm dệt thủ công theo hoa văn truyền thống của người Ê Đê.",
+      "image": "assets/images/tho-cam.jpg",
+      "inStock": true
+    },
+    {
+      "id": "sp010",
+      "name": "Rượu cần Tây Nguyên",
+      "category": "do-uong",
+      "origin": "Buôn Đôn, Đắk Lắk",
+      "unit": "bình 5 lít",
+      "price": 280000,
+      "description": "Rượu cần lên men từ gạo và men lá rừng, theo công thức truyền thống.",
+      "image": "assets/images/ruou-can.jpg",
+      "inStock": true
+    },
+    {
+      "id": "sp011",
+      "name": "Măng khô rừng Tây Nguyên",
+      "category": "che-bien",
+      "origin": "Kon Tum",
+      "unit": "gói 300g",
+      "price": 75000,
+      "description": "Măng le rừng phơi khô tự nhiên, không chất bảo quản.",
+      "image": "assets/images/mang-kho.jpg",
+      "inStock": true
+    },
+    {
+      "id": "sp012",
+      "name": "Trà atiso Đà Lạt",
+      "category": "do-uong",
+      "origin": "Đà Lạt, Lâm Đồng",
+      "unit": "hộp 200g",
+      "price": 60000,
+      "description": "Trà atiso sấy khô nguyên bông, thanh nhiệt, giải độc.",
+      "image": "assets/images/tra-atiso.jpg",
+      "inStock": true
+    }
+  ]
+}
