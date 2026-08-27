@@ -1,7 +1,7 @@
 {
   "name": "website-dac-san-tay-nguyen",
   "version": "1.0.0",
-  "description": "Website gioi thieu 10 mon dac san Tay Nguyen",
+  "description": "Website dac san Tay Nguyen",
   "main": "index.html",
   "scripts": {
     "start": "lite-server",
@@ -10,7 +10,7 @@
   "keywords": [
     "dac-san",
     "tay-nguyen",
-    "website-gioi-thieu",
+    "website-dac-san",
     "10-san-pham"
   ],
   "author": "HuyTran271",
